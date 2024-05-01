@@ -12,12 +12,12 @@ Trapezium si a cutting-edge algorithmic trading software that revolutionizes the
 
 <hr>
 
-##❓ Quick Start
+## ❓ Quick Start
 
 The easiest way to get started is to;
-- For project guideline [refer here](guideline.md)
-- For python module, [refer here](python/README.md)
-- For python development setup [refer here](python/dev-setup.md)
+- [Project guideline](guideline.md)
+- [Python module](python/README.md)
+- [Pre-requisite](python/how-to.md)
 
 <!-- <p align="center">
   <img src="./docs/README.gif" alt="tutorial">

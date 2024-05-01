@@ -17,7 +17,8 @@ utility:
 pip3 install doji
 ```
 
-### Requirements - [Setup](DEVSETUP.md)
+### Requirements
+
 - Python 3
 - [virtualenv](https://virtualenv.pypa.io)
 
@@ -110,6 +111,10 @@ rm -fr build dist *.egg-info
 python3 setup.py sdist bdist_wheel --universal
 twine upload dist/*
 ```
+
+<hr>
+
+[![Deploy](https://vercel.com/button)]()
 
 <hr>
 
