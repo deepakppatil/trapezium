@@ -25,14 +25,21 @@ are automatically installed during doji installation.
 ### Installing doji
 
 ```bash
-# setup virtualenv
-python3 -m venv --system-site-packages trapezium
-cd trapezium
-source bin/activate
-
-# clone codebase and install
+# clone source code
 git clone https://github.com/deepakpatil/trapezium.git
-cd doji
+
+# setup virtualenv
+cd trapezium/python
+
+# create dev-env under the parent folder
+python3 -m venv dev-env
+#activate virtial environment
+source dev-env/bin/activate
+
+# Install all packages in one go
+pip install -r requirements-dev.txt
+
+# Build and install
 python3 setup.py build
 python3 setup.py install
 ```

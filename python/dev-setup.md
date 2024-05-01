@@ -40,11 +40,11 @@ pip install virtualenv # Using pip to install virtual environment
 Create virtual environment now for project to protect the working environment
 
 ```bash
-python3 -m venv foo 
+python3 -m venv dev-env 
 ```
 To activate the foo
 ```bash
-source foo/bin/activate
+source dev-env/bin/activate
 ```
 
 To test the packages installed under your foo
@@ -55,9 +55,13 @@ pip list
 Or to install use;
 ```bash
 pip install <pkg-name>
+
+#or if you wish to install all packages in one go then
+
+pip install -r requirements-dev.txt
 ```
 
-In order to de-activate foo
+In order to de-activate dev-env
 
 ```bash
 deactivate
