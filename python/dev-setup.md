@@ -1,4 +1,4 @@
-# How to setup an IDE
+# How to setup an environment for python
 
 ## Pre-requisite
 
