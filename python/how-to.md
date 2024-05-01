@@ -45,11 +45,11 @@ pip install virtualenv # Using pip to install virtual environment
 To Create virtual environment now for project to protect the working environment
 
 ```bash
-python3 -m venv <env-name>
+python3 -m venv <your-env-name>
 ```
 To activate the foo
 ```bash
-source <env-name>/bin/activate
+source <your-env-name>/bin/activate
 ```
 
 To test the packages installed under your foo
