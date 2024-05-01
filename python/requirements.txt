@@ -1,1 +1,12 @@
+setuptools
+flake8
+wheel
 click
+pandas
+talib
+numpy
+matplotlib
+scipy
+mpl_finance
+mpl_finance
+TA-lib
