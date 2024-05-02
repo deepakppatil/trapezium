@@ -36,4 +36,4 @@ import click
 @click.version_option(version=__version__)
 def cli():
     """sample click-based function"""
-    click.echo('plot doji!')
+    click.echo('plot moving average!')

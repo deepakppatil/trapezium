@@ -17,7 +17,7 @@ from mpl_finance import candlestick_ohlc
 import matplotlib.dates as mdates
 import matplotlib.ticker as mticker
 
-df = pd.read_csv('tick.csv')
+df = pd.read_csv('../data/tick.csv')
 
 #List all columns in CSV file
 df.columns = ['date', 'open', 'high', 'low', 'close', 'volume']
@@ -170,4 +170,4 @@ plt.plot(trend_to_nan(trend_line))
 plt.show()
 
 #Generate a new CSV File with complete data frame
-df.to_csv("sampled_date.csv")
+df.to_csv("doji-out.csv")
